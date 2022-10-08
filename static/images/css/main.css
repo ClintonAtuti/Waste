@@ -1,21 +1,17 @@
-		#logo {
-
-        }
-
-		body {
-		    background-color: #4b84db;
-		}
+body {
+	background-color: #4b84db;
+}
 
 
-		#total-orders {
-		    background-color: #4cb4c7;
-		}
+#total-orders {
+	background-color: #090d0e;
+}
 
 
-		#orders-delivered {
-		    background-color: #7abecc;
-		}
+#orders-delivered {
+	background-color: #0c3b45;
+}
 
-		#orders-pending {
-		    background-color: #7CD1C0;
-		}
+#orders-pending {
+	background-color: #3dc6ab;
+}
