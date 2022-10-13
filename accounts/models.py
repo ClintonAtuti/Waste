@@ -35,6 +35,9 @@ class Product(models.Model):
     datecreated= models.DateTimeField(auto_now_add=True)
     tags = models.ManyToManyField(Tag)
 
+    def __str__(self):
+     return self.name
+     
 class Order(models.Model):
     STATUS = (
         ('Pending','Pending'),
